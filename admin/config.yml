@@ -1,0 +1,133 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ================= HOMEPAGE =================
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage Content"
+        name: "homepage"
+        file: "content/homepage.json"
+        format: "json"
+        fields:
+
+          # HERO
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Description", name: "hero_description", widget: "text" }
+          - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+          - { label: "Hero Video (YouTube Link)", name: "hero_video", widget: "string", required: false }
+
+          # WELCOME
+          - { label: "Welcome Heading", name: "welcome_heading", widget: "string", default: "Welcome to Luminary" }
+
+          # OUR STORY
+          - { label: "Our Story Title", name: "our_story_title", widget: "string" }
+          - { label: "Our Story Text", name: "our_story_text", widget: "text" }
+          - { label: "Our Story Image", name: "our_story_image", widget: "image", required: false }
+          - { label: "Story Video (YouTube Link)", name: "story_video", widget: "string", required: false }
+
+          # CHEF
+          - { label: "Chef Title", name: "chef_title", widget: "string" }
+          - { label: "Chef Text", name: "chef_text", widget: "text" }
+          - { label: "Chef Image", name: "chef_image", widget: "image", required: false }
+          - { label: "Chef Video (YouTube Link)", name: "chef_video", widget: "string", required: false }
+
+
+  # ================= ABOUT =================
+  - name: "about"
+    label: "About Page"
+    files:
+      - label: "About Content"
+        name: "about"
+        file: "content/about.json"
+        format: "json"
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+          - { label: "Hero Video (YouTube Link)", name: "hero_video", widget: "string", required: false }
+
+          - { label: "Story Title", name: "story_title", widget: "string" }
+          - { label: "Story Text", name: "story_text", widget: "text" }
+          - { label: "Story Image", name: "story_image", widget: "image", required: false }
+
+          - { label: "Secondary Story Text", name: "secondary_story_text", widget: "text" }
+          - { label: "Secondary Story Image", name: "secondary_story_image", widget: "image", required: false }
+
+          - { label: "Chef Title", name: "chef_title", widget: "string" }
+          - { label: "Chef Text", name: "chef_text", widget: "text" }
+          - { label: "Chef Image", name: "chef_image", widget: "image", required: false }
+
+
+  # ================= EVENTS =================
+  - name: "events"
+    label: "Events Page"
+    files:
+      - label: "Events Content"
+        name: "events"
+        file: "content/events.json"
+        format: "json"
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+
+          - { label: "Private Dining Text", name: "private_text", widget: "text" }
+          - { label: "Event Hosting Text", name: "hosting_text", widget: "text" }
+          - { label: "Events Image", name: "events_image", widget: "image", required: false }
+          - { label: "Events Video (YouTube Link)", name: "events_video", widget: "string", required: false }
+
+
+  # ================= MENU =================
+  - name: "menu"
+    label: "Menu"
+    files:
+      - label: "Full Menu"
+        name: "menu"
+        file: "content/menu.json"
+        format: "json"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Category Name", name: "category_name", widget: "string" }
+              - { label: "Category Image", name: "category_image", widget: "image", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Item Name", name: "name", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+
+  # ================= RESERVATION =================
+  - name: "reservation"
+    label: "Reservation Page"
+    files:
+      - label: "Reservation Content"
+        name: "reservation"
+        file: "content/reservation.json"
+        format: "json"
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+          - { label: "Hero Video (YouTube Link)", name: "hero_video", widget: "string", required: false }
+
+
+    # ================= CONFIRMATION =================
+  - name: "confirmation"
+    label: "Confirmation Page"
+    files:
+    - label: "Confirmation Hero"
+      name: "confirmation"
+      file: "content/confirmation.json"
+      format: "json"
+      fields:
+        - { label: "Hero Title", name: "hero_title", widget: "string" }
+        - { label: "Hero Image", name: "hero_image", widget: "image" }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservation Confirmed — Luminary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kay5xhu.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+</head>
+
+
+ <body>
+<div class="site-wrapper">  <!-- START WRAPPER -->
+  
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <a href="index.html"><img class="logo" src="images/logo.svg"></a>
+    </div>
+
+   <button class="hamburger" id="hamburger">☰</button>
+
+
+   <nav class="nav-links" id="navLinks">
+      <a href="./about.html">About</a>
+      <a href="./events.html">Private Events</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./reservation.html" class="nav-btn">Book a Table</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero confirmation-hero">
+
+  <div class="hero-content">
+    <h1 id="confirmationHeroTitle">Loading...</h1>
+  </div>
+
+  <div class="hero-media">
+    <img id="confirmationHeroImage" class="hero-bg" src="" alt="Confirmation Hero">
+  </div>
+
+</section>
+
+<section class="confirmation-section">
+  <div class="confirmation-card">
+
+    <h2>
+      Thank you for booking at Luminary.<br>
+      Here are your reservation details:
+    </h2>
+
+    <div class="reservation-details">
+
+      <div class="detail-row">
+        <div class="detail-icon"></div>
+        <div class="detail-content">
+          <strong>Luminary Restaurant:</strong>
+          <p>0420 Solstice Way, Tempe AZ 85281</p>
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-icon"></div>
+        <div class="detail-content">
+          <strong>Date & Time:</strong>
+          <p id="confirmDateTime"></p>
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-icon"></div>
+        <div class="detail-content">
+          <strong>Party Size:</strong>
+          <p id="confirmPartySize"></p>
+        </div>
+      </div>
+
+      <div class="detail-row">
+        <div class="detail-icon"></div>
+        <div class="detail-content">
+          <strong>Occasion:</strong>
+          <p id="confirmOccasion"></p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="confirmation-email">
+      A confirmation email has been sent to: <span id="confirmEmail"></span>
+    </p>
+
+    <div class="confirmation-buttons">
+      <a href="./index.html" class="outline-btn">Home</a>
+      <a href="./menu.html" class="primary-btn">Menu</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <div class="footer-inner">
+
+    <div class="footer-top">
+
+      <!-- LEFT SIDE -->
+      <div class="footer-brand">
+        <h2 class="footer-logo">LUMIN✦RY</h2>
+
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <p>Instagram</p>
+          <p>Facebook</p>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="footer-columns">
+
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <p>0420 Solstice Way</p>
+          <p>Tempe, AZ 85281</p>
+          <p>(480) 888 - 5862</p>
+          <p>hello@luminary.com</p>
+          <p>events@luminary.com</p>
+          <p>Saturday - Sunday</p>
+          <p>10:00 AM - 10:00 PM</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Helpful Links</h4>
+          <p>About</p>
+          <p>FAQ’s</p>
+          <p>Menu</p>
+          <p>Events</p>
+          <p>Careers</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Service</a>
+  <span>© Luminary 2026</span>
+</div>
+
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+
+
+
+</div> <!-- END WRAPPER -->
+</body>
+</html>

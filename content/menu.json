@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "category_name": "Appetizers",
+      "category_image": "/images/uploads/git_450-550_luminary_photo_-_video_foodplating02_v2.jpg",
+      "items": [
+        {
+          "name": "Starlight Tartare ",
+          "price": "11",
+          "description": "Finely diced seasonal tuna with yuzu, avocado, and a touch of edible gold."
+        },
+        {
+          "name": "Nebula Carpaccio ",
+          "price": "10",
+          "description": "Paper-thin slices of beetroot and radish, finished with truffle vinaigrette."
+        },
+        {
+          "name": "Lunar Croquettes ",
+          "price": "12",
+          "description": "Crispy potato and fontina bites served with smoked saffron aioli."
+        },
+        {
+          "name": "Celestial Garden Dip",
+          "price": "10",
+          "description": "Roasted seasonal vegetables with comet herb oil and mozzarella cheese with a side of toasted bread slices."
+        }
+      ]
+    },
+    {
+      "category_name": "Signature Plates",
+      "category_image": "/images/uploads/git_450-550_luminary_photo_-_video_foodplating05_v2.jpg",
+      "items": [
+        {
+          "name": "Galactic Sea Bass",
+          "price": "18",
+          "description": "Pan-seared sea bass with a star anise glaze, served atop smoked leek purée."
+        },
+        {
+          "name": "Nebula Lamb  Loin",
+          "price": "19",
+          "description": "Herb-crusted lamb loin with a rich black garlic jus, served with moonlit potato gratin."
+        },
+        {
+          "name": "Cosmic Mushroom Risotto",
+          "price": "17",
+          "description": "Creamy arborio rice with wild forest mushrooms, parmesan dust, and truffle oil."
+        },
+        {
+          "name": "Solar Flare Duck Breast",
+          "price": "20",
+          "description": "Crispy-skinned duck with a blood orange gastrique, served with celestial spiced lentils."
+        }
+      ]
+    },
+    {
+      "category_name": "Desserts",
+      "category_image": "/images/uploads/git_450-550_luminary_photo_-_video_foodplating01_v2.jpg",
+      "items": [
+        {
+          "name": "Stardust Chocolate Sphere",
+          "price": "11",
+          "description": "Dark chocolate sphere filled with passionfruit mousse and a cosmic reveal."
+        },
+        {
+          "name": "Aurora Meringue Cloud",
+          "price": "9",
+          "description": "Light, airy meringue with a lavender cream, freeze-dried berries, and golden syrup"
+        },
+        {
+          "name": "Comet Lemon Tart",
+          "price": "10",
+          "description": "Tangy lemon curd on a crisp almond crust, topped with a scoop of vanilla ice cream and star sugar."
+        },
+        {
+          "name": "Moonlit Panna Cotta",
+          "price": "10",
+          "description": "Silky vanilla panna cotta with blackberry nebula compote and a sprinkle of silver dust."
+        }
+      ]
+    },
+    {
+      "category_name": "Beverages",
+      "category_image": "/images/uploads/beverages1.png",
+      "items": [
+        {
+          "name": "Solar Citrus Elixir ",
+          "price": "11",
+          "description": "Fresh-squeezed blood orange, yuzu, and sparkling mineral water, with a lemon twist."
+        },
+        {
+          "name": "Moonflower Iced Tea",
+          "price": "8",
+          "description": "Delicate jasmine tea with white peach and a hint of elderflower, lightly chilled."
+        },
+        {
+          "name": "Stardew Botanical Tonic",
+          "price": "10",
+          "description": "House-infused rosemary, cucumber, and lime with artisanal tonic water."
+        },
+        {
+          "name": "Nebula Cold Brew",
+          "price": "8",
+          "description": "Smooth single-origin cold brew with vanilla bean and a touch of oat milk."
+        }
+      ]
+    },
+    {
+      "category_name": "Cocktails",
+      "category_image": "/images/uploads/git_450-550_luminary_photo_-_video_cocktail_close_up_v2.png",
+      "items": [
+        {
+          "name": "Solar Flare Spirtz",
+          "price": "13",
+          "description": "Blood orange aperitif, prosecco, and a splash of sparkling water with a citrus twist."
+        },
+        {
+          "name": "Nebula Negroni",
+          "price": "12",
+          "description": "Gin, sweet vermouth, and a house-infused hibiscus Campari, served with an ice-sphere."
+        },
+        {
+          "name": "Midnight Orbit Martini",
+          "price": "10",
+          "description": "Vodka, elderflower liqueur, fresh lemon, and a shimmer of edible silver dust."
+        },
+        {
+          "name": "Eclipse Old Fashioned",
+          "price": "9",
+          "description": "Small-batch bourbon, smoked star anise syrup, orange bitters, and a flamed citrus peel."
+        }
+      ]
+    }
+  ]
+}

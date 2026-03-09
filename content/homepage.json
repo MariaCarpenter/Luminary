@@ -1,0 +1,31 @@
+{
+  "our_story": {
+    "title": "Our Story",
+    "text": "Luminary was founded with a desire to create a space where elevated cuisine feels intimate and welcoming.",
+    "image": "/images/our-story.jpg",
+    "video": ""
+  },
+  "chef_image": "/images/uploads/git_450-550_luminary_photo_-_video_kitchen01_v2.jpg",
+  "welcome_heading": "Welcome",
+  "chef_text": "Chef Philosophy\nExecutive Chef Brie Lumière builds each dish around the idea of illumination, revealing the full potential of an ingredient through precision, contrast, and clarity. Combining inspiration from the generosity from the land and sea, she hones in on sharpening flavors, refining textures, and composing plates that allow each ingredient to be seen, tasted, and understood.\n",
+  "our_story_text": "Our Story\nLuminary is an approachable,  fine-dining experience with rustic textures and celestial inspiration. Guided by the vision of our founder, John Luminary, here our seasonally driven menu is informed by the surrounding environment, forest, field, and stream.\n",
+  "chef_philosophy": {
+    "title": "Chef Philosophy",
+    "text": "Our philosophy centers around precision, seasonal ingredients, and emotional storytelling through food.",
+    "image": "/images/chef.jpg",
+    "video": ""
+  },
+  "hero_title": "Celestial in spirit. Precise in execution.",
+  "hero_image": "/images/uploads/git_450-550_luminary_photo_-_video_foodplating05_v2.jpg",
+  "hero_video": "",
+  "hero_description": "\nThrough thoughtful technique and carefully sourced ingredients,\neach dish is designed to reveal depth, contrast, and luminous discovery.",
+  "hero": {
+    "title": "Celestial in spirit. Precise in execution.",
+    "description": "Through thoughtful technique and carefully sourced ingredients, each dish is designed to feel refined yet warm.",
+    "image": "/images/hero.jpg"
+  },
+  "our_story_title": "Our Story ",
+  "our_story_video": "https://youtu.be/bV4G6cfaLdg?si=cR-kQ-y7cGuS6NuF",
+  "our_story_image": "/images/uploads/git_450-550_luminary_photo_-_video_atmosphere01_v2.jpg",
+  "chef_title": "Chef Philosophy "
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luminary — The Living Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kay5xhu.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+<div class="site-wrapper">  <!-- START WRAPPER -->
+<!-- ================= NAVIGATION ================= -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Luminary Logo">
+      </a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="events.html">Private Events</a>
+      <a href="menu.html">Menu</a>
+      <a href="reservation.html" class="nav-btn">Book a Table</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section class="page-hero reservation-hero">
+  <div class="hero-content">
+    <h1 id="reservationHeroTitle">Loading...</h1>
+  </div>
+
+  <div class="hero-media">
+    <img id="reservationHeroImage" class="hero-bg" src="" alt="">
+  </div>
+</section>
+
+
+<!-- ================= RESERVATION SECTION ================= -->
+<section class="reservation-section">
+  <div class="form-card">
+
+    <form 
+  id="reservationForm"
+  name="reservation"
+  method="POST"
+  data-netlify="true"
+>
+        
+<input type="hidden" name="form-name" value="reservation">
+
+  
+
+    <!-- Hidden fields from Step 1 -->
+ <input type="hidden" name="partySize" id="partySizeHidden">
+<input type="hidden" name="reservationDate" id="dateHidden">
+<input type="hidden" name="reservationTime" id="timeHidden">
+<input type="hidden" name="occasion" id="occasionHidden">
+
+    <!-- ================= STEP 1 ================= -->
+    <div id="step1" class="form-step active">
+
+      <div class="form-header">
+        <h2>Booking Information</h2>
+        <span class="step-label">Step 1 of 2</span>
+      </div>
+
+      <div class="form-grid">
+
+        <div>
+          <label>Party Size *</label>
+          <select id="partySizeSelect" required>
+            <option value="">Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5+</option>
+          </select>
+        </div>
+
+        <div>
+          <label>Date *</label>
+          <input type="date" id="dateSelect" required>
+        </div>
+
+        <div>
+          <label>Occasion</label>
+          <input type="text" id="occasionSelect">
+        </div>
+
+        <div>
+          <label>Time *</label>
+          <input type="time" id="timeSelect" required>
+        </div>
+
+      </div>
+
+      <div class="form-actions">
+        <button type="button" id="nextBtn">Next</button>
+      </div>
+
+    </div>
+
+    <!-- ================= STEP 2 ================= -->
+    <div id="step2" class="form-step">
+
+      <div class="form-header">
+        <button type="button" id="backBtn" class="back-btn">‹ Back</button>
+        <span class="step-label">Step 2 of 2</span>
+      </div>
+
+      <h2>Your Information</h2>
+
+      <div class="form-grid">
+
+        <div>
+          <label>Name *</label>
+          <input type="text" name="name" required>
+        </div>
+
+        <div>
+          <label>Email *</label>
+          <input type="email" name="email" required>
+        </div>
+
+        <div>
+          <label>Phone *</label>
+          <input type="tel" name="phone" required>
+        </div>
+
+        <div>
+          <label>Dietary Restrictions</label>
+          <input type="text" name="dietary">
+        </div>
+
+        <div class="full-width">
+          <label>Special Requests</label>
+          <textarea name="requests"></textarea>
+        </div>
+
+      </div>
+
+      <div class="form-actions">
+       <button type="submit" class="primary-btn">
+  Confirm Reservation
+</button>
+      </div>
+
+   </form>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <div class="footer-inner">
+
+    <div class="footer-top">
+
+      <!-- LEFT SIDE -->
+      <div class="footer-brand">
+        <h2 class="footer-logo">LUMIN✦RY</h2>
+
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <p>Instagram</p>
+          <p>Facebook</p>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="footer-columns">
+
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <p>0420 Solstice Way</p>
+          <p>Tempe, AZ 85281</p>
+          <p>(480) 888 - 5862</p>
+          <p>hello@luminary.com</p>
+          <p>events@luminary.com</p>
+          <p>Saturday - Sunday</p>
+          <p>10:00 AM - 10:00 PM</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Helpful Links</h4>
+          <p>About</p>
+          <p>FAQ’s</p>
+          <p>Menu</p>
+          <p>Events</p>
+          <p>Careers</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms of Service</a>
+  <span>© Luminary 2026</span>
+</div>
+
+  </div>
+
+</footer>
+<script src="script.js"></script>
+
+
+
+<!-- Netlify form detection backup -->
+<form name="reservation" data-netlify="true" hidden>
+  <input type="hidden" name="form-name" value="reservation" />
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+</form>
+
+
+
+</div> <!-- END WRAPPER -->
+</body>
+</html>
